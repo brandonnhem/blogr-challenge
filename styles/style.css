@@ -1,0 +1,33 @@
+#header {
+    background-color: hsl(353, 100%, 62%);
+    text-align: center;
+}
+
+.hamburger-menu {
+    visibility: hidden;
+}
+
+.button {
+    line-height: 36px;
+    border-radius: 48px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 1px solid;
+    border-color: hsl(0, 0%, 100%);
+}
+
+/* BUTTON */
+
+.button-solid {
+    color: hsl(356, 100%, 66%);
+}
+
+.button-outline {
+    color: hsl(0, 0%, 100%);
+    background: none;
+}
+
+.button-solid:hover {
+    background: hsl(355, 100%, 74%);
+}
