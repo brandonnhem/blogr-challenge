@@ -12,6 +12,12 @@ body {
     color: hsl(208, 49%, 24%);
 }
 
+h2 {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+
 #header {
     background-color: hsl(353, 100%, 62%);
     text-align: center;
@@ -22,6 +28,7 @@ body {
 }
 
 .button {
+    font-family: 'Ubuntu', sans-serif;
     line-height: 36px;
     border-radius: 48px;
     padding: 0 10px;
