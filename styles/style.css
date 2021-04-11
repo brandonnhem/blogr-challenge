@@ -1,3 +1,17 @@
+body {
+    font-size: 16px;
+}
+
+.white-h1 {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.blue-h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: hsl(208, 49%, 24%);
+}
+
 #header {
     background-color: hsl(353, 100%, 62%);
     text-align: center;
