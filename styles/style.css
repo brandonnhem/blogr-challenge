@@ -33,8 +33,34 @@ nav {
     padding: 3rem;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-open {
+    float: right;
+}
+
+.icon-close {
+    float: right;
+    display: none;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: auto;
+}
+
+.menu-buttons {
+    display: inline-block;
+}
+
 .hamburger-menu {
-    visibility: hidden;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    display: none;
 }
 
 .hamburger-h3 {
@@ -81,7 +107,7 @@ nav {
 .image {
     margin: auto;
     display: block;
-    width: 100%;
+    width: 110%;
 }
 
 .colored-section {
