@@ -1,5 +1,7 @@
 body {
+    font-family: 'Overpass', sans-serif;
     font-size: 16px;
+    color: hsl(207, 13%, 34%)
 }
 
 .white-h1 {
@@ -8,7 +10,7 @@ body {
 }
 
 .blue-h1 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Overpass', sans-serif;
     color: hsl(208, 49%, 24%);
 }
 
@@ -27,6 +29,32 @@ h2 {
     visibility: hidden;
 }
 
+.hamburger-h3 {
+    font-family: 'Overpass', sans-serif;
+    color: hsl(208, 49%, 24%);
+}
+
+.hamburger-links {
+    color: hsl(207, 13%, 34%);
+}
+
+#footer {
+    background-color: hsl(237, 17%, 21%);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: hsl(240, 2%, 79%);
+}
+
+.footer-h3 {
+    font-weight: 700;
+}
+
+.footer-links {
+    font-weight: 400;
+}
+
+/* BUTTON */
+
 .button {
     font-family: 'Ubuntu', sans-serif;
     line-height: 36px;
@@ -38,8 +66,6 @@ h2 {
     border-color: hsl(0, 0%, 100%);
 }
 
-/* BUTTON */
-
 .button-solid {
     color: hsl(356, 100%, 66%);
 }
@@ -47,6 +73,14 @@ h2 {
 .button-outline {
     color: hsl(0, 0%, 100%);
     background: none;
+}
+
+.button-colored {
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    padding: 0 30px;
 }
 
 .button-solid:hover {
