@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     color: hsl(207, 13%, 34%);
     text-align: center;
+    margin: 0;
 }
 
 .white-h1 {
@@ -23,8 +24,13 @@ h2 {
 }
 
 #header {
-    background-image: linear-gradient(to bottom right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-image: linear-gradient(to bottom right, hsl(13, 100%, 72%), hsl(353, 100%, 62%)), url('images/bg-pattern-intro.svg');
+    background-size: cover;
     border-bottom-left-radius: 72px;
+}
+
+nav {
+    padding: 3rem;
 }
 
 .hamburger-menu {
@@ -41,11 +47,51 @@ h2 {
 }
 
 #blurb {
-    background-color: hsl(237, 23%, 32%);
+    background-image: linear-gradient(to bottom,hsl(237, 17%, 21%), hsl(237, 23%, 32%));
     border-bottom-left-radius: 48px;
     border-top-right-radius: 48px;
     color: hsl(0, 0%, 100%);
     font-weight: 300;
+    overflow: hidden;
+}
+
+.image-stack {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.bottom-img {
+    position: relative;
+    bottom: 150px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
+
+.top-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+}
+
+.image {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.colored-section {
+    padding: 3rem;
+    line-height: 1.8;
+}
+
+.white-section {
+    padding: 3rem;
+    line-height: 1.8;
 }
 
 #footer {
@@ -53,6 +99,7 @@ h2 {
     font-family: 'Ubuntu', sans-serif;
     color: hsl(240, 2%, 79%);
     border-top-right-radius: 72px;
+    padding: 3rem;
 }
 
 .footer-h3 {
@@ -61,6 +108,8 @@ h2 {
 
 .footer-links {
     font-weight: 400;
+    white-space: pre;
+    line-height: 40px;
 }
 
 /* BUTTON */
@@ -74,6 +123,7 @@ h2 {
     margin-top: 40px;
     border: 1px solid;
     border-color: hsl(0, 0%, 100%);
+    font-weight: 700;
 }
 
 .button-solid {
@@ -86,7 +136,6 @@ h2 {
 }
 
 .button-colored {
-    font-weight: 700;
     color: hsl(0, 0%, 100%);
     border: none;
     background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
