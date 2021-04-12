@@ -1,7 +1,9 @@
 body {
     font-family: 'Overpass', sans-serif;
+    font-weight: 300;
     font-size: 16px;
-    color: hsl(207, 13%, 34%)
+    color: hsl(207, 13%, 34%);
+    text-align: center;
 }
 
 .white-h1 {
@@ -21,8 +23,8 @@ h2 {
 }
 
 #header {
-    background-color: hsl(353, 100%, 62%);
-    text-align: center;
+    background-image: linear-gradient(to bottom right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    border-bottom-left-radius: 72px;
 }
 
 .hamburger-menu {
@@ -38,11 +40,19 @@ h2 {
     color: hsl(207, 13%, 34%);
 }
 
+#blurb {
+    background-color: hsl(237, 23%, 32%);
+    border-bottom-left-radius: 48px;
+    border-top-right-radius: 48px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+
 #footer {
     background-color: hsl(237, 17%, 21%);
-    text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: hsl(240, 2%, 79%);
+    border-top-right-radius: 72px;
 }
 
 .footer-h3 {
