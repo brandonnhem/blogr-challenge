@@ -101,8 +101,8 @@ nav {
     position: relative;
     display: block;
     top: 50px;
-    left: -40px;
-    width: 130%;
+    left: -35px;
+    width: 125%;
     z-index: 3;
 }
 
@@ -140,7 +140,7 @@ nav {
 }
 
 #footer {
-    background-color: hsl(237, 17%, 21%);
+    background-color: hsl(240, 10%, 16%);
     font-family: 'Ubuntu', sans-serif;
     color: hsl(240, 2%, 79%);
     border-top-right-radius: 100px;
@@ -178,6 +178,7 @@ nav {
 }
 
 .button-solid {
+    background-color: hsl(0, 0%, 100%);
     color: hsl(356, 100%, 66%);
     padding: 0 16px;
 }
