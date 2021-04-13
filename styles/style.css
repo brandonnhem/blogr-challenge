@@ -8,13 +8,17 @@ body {
     overflow-x: hidden;
 }
 
-.white-h1 {
+h1 {
     font-family: 'Overpass', sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.2;
+}
+
+.white-h1 {
     color: hsl(0, 0%, 100%);
 }
 
 .blue-h1 {
-    font-family: 'Overpass', sans-serif;
     color: hsl(208, 49%, 24%);
 }
 
@@ -22,6 +26,7 @@ h2 {
     font-family: 'Overpass', sans-serif;
     color: hsl(0, 0%, 100%);
     font-weight: 300;
+    font-size: 1rem;
 }
 
 #header {
@@ -29,7 +34,7 @@ h2 {
     background-size: 1100px, cover;
     background-repeat: no-repeat;
     background-position: 40% 30%;
-    border-bottom-left-radius: 72px;
+    border-bottom-left-radius: 100px;
     overflow: hidden;
 }
 
@@ -78,11 +83,12 @@ nav {
 
 #blurb {
     background-image: linear-gradient(to bottom,hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-    border-bottom-left-radius: 48px;
-    border-top-right-radius: 48px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
     color: hsl(0, 0%, 100%);
     font-weight: 300;
     overflow: hidden;
+    min-height: 590px;
 }
 
 .special-div {
@@ -114,8 +120,8 @@ nav {
     position: relative;
     margin: auto;
     display: block;
-    width: 150%;
-    left: -65px;
+    width: 145%;
+    left: -70px;
     margin-right: -44px;
 }
 
@@ -124,12 +130,12 @@ nav {
 }
 
 .colored-section {
-    padding: 3rem;
+    padding: 2.5rem;
     line-height: 1.8;
 }
 
 .white-section {
-    padding: 3rem;
+    padding: 2.5rem;
     line-height: 1.8;
 }
 
@@ -137,7 +143,7 @@ nav {
     background-color: hsl(237, 17%, 21%);
     font-family: 'Ubuntu', sans-serif;
     color: hsl(240, 2%, 79%);
-    border-top-right-radius: 72px;
+    border-top-right-radius: 100px;
     padding: 3rem;
 }
 
