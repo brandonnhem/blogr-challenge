@@ -165,15 +165,18 @@ nav {
 .button-group {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 70px;
 }
 
 .button-solid {
     color: hsl(356, 100%, 66%);
+    padding: 0 16px;
 }
 
 .button-outline {
     color: hsl(0, 0%, 100%);
     background: none;
+    padding: 0 20px;
 }
 
 .button-colored {
