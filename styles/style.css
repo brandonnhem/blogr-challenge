@@ -29,6 +29,8 @@ h2 {
     font-size: 1rem;
 }
 
+/* HEADER */
+
 #header {
     background-image: url('../images/bg-pattern-intro.svg'), linear-gradient(to bottom right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     background-size: 1100px, cover;
@@ -49,10 +51,12 @@ nav {
 
 .icon-open {
     float: right;
+    width: 100%;
 }
 
 .icon-close {
     float: right;
+    width: 100%;
     display: none;
 }
 
@@ -80,6 +84,8 @@ nav {
 .hamburger-links {
     color: hsl(207, 13%, 34%);
 }
+
+/* BODY DIVs */
 
 #blurb {
     background-image: linear-gradient(to bottom,hsl(237, 17%, 21%), hsl(237, 23%, 32%));
@@ -139,6 +145,8 @@ nav {
     line-height: 1.8;
 }
 
+/* FOOTER */
+
 #footer {
     background-color: hsl(240, 10%, 16%);
     font-family: 'Ubuntu', sans-serif;
@@ -148,13 +156,16 @@ nav {
 }
 
 .footer-h3 {
+    margin-top: 50px;
     font-weight: 700;
 }
 
 .footer-links {
+    line-height: 2;
     font-weight: 400;
-    white-space: pre;
-    line-height: 40px;
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
 }
 
 /* BUTTON */
